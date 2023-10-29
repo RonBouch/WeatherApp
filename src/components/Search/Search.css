@@ -1,0 +1,16 @@
+/*  */
+/* Search */
+/*  */
+.search-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    height: 100px;
+    flex-direction: column;
+}
+#combo-box-demo {
+    height: 30px;
+    margin: 0px;
+    border: 0px;
+}

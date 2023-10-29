@@ -1,0 +1,60 @@
+/*  */
+/* HomePage */
+/*  */
+.HomePage-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-con {
+    display: flex;
+    flex-direction: row-reverse;
+    /* width: 80%; */
+    justify-content: space-between;
+}
+
+.btn {
+    border: none;
+    color: white;
+    background-color: transparent;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.favorite {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.current-city{
+    color:white;
+    display: flex;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .HomePage-container {
+        /* padding: 45px; */
+    }
+}
+
+/* general styling */
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+}
+
+.item {
+    /* height: 342px; */
+}
+
